@@ -33,6 +33,18 @@ body {
 
 .container-monthlyfav {}
 
+.page-header {
+    margin-top: 20px;
+
+    text-align: center;    
+
+    /* display: flex;
+
+    position: center;
+    justify-content: center; */
+
+}
+
  /*Navbar*/
 
  .container-navalert {
@@ -91,6 +103,7 @@ body {
     width: 75px;
     height: 5px;
     border: 0;
+    background-color: #444;
     
 }
 .block-divider--orange {
@@ -99,6 +112,21 @@ body {
 
 .block-divider--short {
     width: 35px;
+}
+/*Content containers*/
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    
+}
+
+.container-wrapper {
+
+}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
 }
 
  /*buttons*/
@@ -123,6 +151,10 @@ body {
  .btn--red:active:focus {
     background-color: #ddb9b0;
     border-color: #dd8876;
+ }
+
+ .features i {
+    font-size: 45px;
  }
 
 
